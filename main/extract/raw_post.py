@@ -32,3 +32,10 @@ class RawPost:
                     self.imageUrl,
                     self.votersUrl,
                     self.postUrl)
+
+
+    def setOriginalPostId(self, originalPostId: str):
+        self.opId = originalPostId
+
+    def setIsOriginalPost(self, isOriginalPost: bool):
+        self.isOp = isOriginalPost
